@@ -26,6 +26,7 @@ public class AssertionsPractice {
 		sa.assertEquals("B", "A");
 		System.out.println("Step 3");
 		sa.assertAll();// to log the failures---should be the last statement
+		System.out.println("done");
 	}
 
 }
